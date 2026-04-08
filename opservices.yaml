@@ -1,0 +1,42 @@
+#spring:
+#  application:
+#    name: OPServices
+#
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://host.docker.internal:3306/hospital_db
+#    username: root
+#    password: root
+#    hikari:
+#      maximum-pool-size: 10
+#      minimum-idle: 5
+#      idle-timeout: 30000
+#      connection-timeout: 20000
+#      max-lifetime: 1800000
+#  config:
+#    import:
+#     - "opservices-qa.yml"
+#     - "opservices-prod.yml"
+#  profiles:
+#    active:
+#     - "qa"
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+    
+
+#server:
+#  port: 8084
+
+build:
+ version: "1.0"
+
+opservices:
+  message: "welcome to hosipatal project OPService APIS"
+  contactDetails:
+    name: "Murali-Goud"
+    email: "murali.rajyam93@gmail.com"
+  oncallSuport:
+    - 91 9640096120
+    - 91 7993469612
