@@ -2,7 +2,7 @@ build:
  version: "1.0"    
  
 doctors:
- message: "welcome to hosipatal project doctor PROD APIS"
+ message: "welcome to hosipatal project doctor PRODD APIS"
  contactDetails: 
   name: "Murali-PROD"
   email: "murali.rajyam93@gmail.com"
