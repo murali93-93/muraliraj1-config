@@ -1,1 +1,11 @@
-
+build:
+ version: "1.0"    
+ 
+doctors:
+ message: "welcome to hosipatal project doctor Dev APIS"
+ contactDetails: 
+  name: "Murali-Dev"
+  email: "murali.rajyam93@gmail.com"
+ oncallSuport:
+  - 91 9640096120
+  - 91 7993469612
