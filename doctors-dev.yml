@@ -2,7 +2,7 @@ build:
  version: "1.0"    
  
 doctors:
- message: "welcome to hosipatal project doctor Devv APIS"
+ message: "welcome to hosipatal project doctor Devvoooo APIS"
  contactDetails: 
   name: "Murali-Dev"
   email: "{cipher}facafbbd73494a1eab03515969640f3191380f9c06ea848458c1c76003f6f2f59e08b4dd42c0d977a94486bb4f461d85"
